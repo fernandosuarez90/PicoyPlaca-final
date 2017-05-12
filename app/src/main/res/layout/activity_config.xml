@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.frank.myapplication.ConfigActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:layout_x="10dp"
+        android:layout_y="456dp"
+        android:onClick="reg"
+        android:text="Regresar"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="26dp"
+        android:text="CONFIGURACION."
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="106dp"
+        android:text="Seleccionar pico y placa:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.07"
+        android:layout_x="281dp"
+        android:layout_y="101dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="121dp"
+        android:layout_height="253dp"
+        android:layout_x="272dp"
+        android:layout_y="202dp"
+        app:srcCompat="@mipmap/andr" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_x="321dp"
+        android:layout_y="455dp"
+        android:background="@mipmap/acercade"
+        android:onClick="acercade" />
+
+</AbsoluteLayout>
